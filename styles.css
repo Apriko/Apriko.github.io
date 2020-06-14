@@ -1,0 +1,98 @@
+
+html, body {
+  background-color: #111319;
+} 
+body{
+  padding-top: 110px;
+}
+
+.row, .container{
+  margin: 0 auto ;
+  padding: 0 auto ;
+  max-width: 1440px;
+}
+
+/* Header Begin */
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  padding: 20px 0;
+  top: 0;
+  z-index: 9999;
+  background: #111319;
+}
+
+.header-text{
+  font-size: 1em;
+  color: #fff;
+  vertical-align: middle;
+  text-align: right;
+}
+/* Header Ends */
+
+/* Vision & Mission */
+.title-container{
+  font-size: 1em;
+  font-weight: 300;
+  color: #fff;
+}
+
+.title-container p{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.content-container{
+  font-size: 3em;
+  color: #fff;
+}
+
+.content-container img{
+  margin-left: 10px;
+}
+
+.text-container{
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #fff;
+}
+.red-btn-container{
+  background-color: #dd4242;
+  max-width: 250px;
+  text-align: center;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  transition: border-color 0.3s;
+  margin: 10px 0;
+}
+.red-btn-container a{
+  color: #fff !important;
+}
+.white-btn-container{
+  /* background-color: #dd4242; */
+  max-width: 250px;
+  text-align: center;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 20px;
+  border: 1px solid #dd4242;
+  border-radius: 30px;
+  transition: border-color 0.3s;
+  margin: 10px 0;
+}
+.white-btn-container a{
+  color: #fff !important;
+}
+.contact-container{
+  background: #191c26;
+  height: fit-content;
+  padding: 40px 20px;
+  margin-top: 100px;  
+}
+.intro-text p{
+  margin-top: -200px;
+}
